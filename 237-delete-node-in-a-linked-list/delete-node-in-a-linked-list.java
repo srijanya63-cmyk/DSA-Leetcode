@@ -17,3 +17,4 @@ class Solution {
         nextNode.next = null;
     }
 }
+// time complexity = O(1)
