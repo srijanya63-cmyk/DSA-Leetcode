@@ -1,5 +1,5 @@
 class Solution {  
-    // Defines the Solution class as required by LeetCode
+    
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {  
         // Function to merge two sorted linked lists and return the head of the merged list
