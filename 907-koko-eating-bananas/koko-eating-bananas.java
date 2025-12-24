@@ -21,7 +21,7 @@ class Solution {
         long hours = 0;
 
         for (int pile : piles) {
-            // 🔥 FORCE LONG ARITHMETIC
+            //  FORCE LONG ARITHMETIC
             hours += ((long)pile + k - 1) / k;
 
             // optimization + overflow safety
