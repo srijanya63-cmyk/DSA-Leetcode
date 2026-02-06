@@ -3,7 +3,6 @@ class Solution {
         if (s.length() != goal.length())
             return false;
 
-        String doubled = s + s;
-        return doubled.contains(goal);
+        return (s + s).contains(goal);
     }
 }
