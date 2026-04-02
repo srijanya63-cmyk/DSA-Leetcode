@@ -1,8 +1,15 @@
 class Solution {
     public boolean rotateString(String s, String goal) {
-        if (s.length() != goal.length())
+        
+        // Step 1: length check
+        if (s.length() != goal.length()) {
             return false;
+        }
 
-        return (s + s).contains(goal);
+        // Step 2: concatenate
+        String doubled = s + s;
+
+        // Step 3: check substring
+        return doubled.contains(goal);
     }
 }
